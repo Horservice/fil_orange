@@ -9,13 +9,13 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Globe-trotteur</a>
+            <div class="container-fluid ">
+              <a class="navbar-brand mx-auto" href="#">Globe-trotteur</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Homme</a>
                   </li>
@@ -49,8 +49,8 @@
 </main>
 
 
-<footer class="bg-dark text-white p-4">
-    <div class="container-fluid textce">
+<footer class="bg-light text-black p-4">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
                 <h4>Contact</h4>
@@ -60,17 +60,16 @@
             <div class="col-md-4">
                 <h4>Liens Rapides</h4>
                 <ul class="list-unstyled">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Produits</a></li>
-                    <li><a href="#">Promotions</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="text-black">Accueil</a></li>
+                    <li><a href="#" class="text-black">Produits</a></li>
+                    <li><a href="#" class="text-black">Contact</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
                 <h4>Suivez-Nous</h4>
-                <a href="#" class="text-white"><i class="fab fa-facebook"></i> Facebook</a><br>
-                <a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a><br>
-                <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a><br>
+                <a href="#" class="text-black"><i class="fab fa-facebook"></i> Facebook</a><br>
+                <a href="#" class="text-black"><i class="fab fa-twitter"></i> Twitter</a><br>
+                <a href="#" class="text-black"><i class="fab fa-instagram"></i> Instagram</a><br>
             </div>
         </div>
     </div>

@@ -7,6 +7,7 @@ function login(){
 
     $db = dbConnect();
     $msg = "";
+    $_SESSION['userName'] = null;
 
     if(isset($_POST['submit'])){
 
@@ -31,11 +32,14 @@ function login(){
                 if (password_verify($password, $data[0]["password"])) {
     
                     $_SESSION['userName'] = $data[0]['userName']; 
+
                 }
     
                 if (!password_verify($password, $data[0]["password"])) {
     
                     $msg='identifiant ou mots de passe incorrect';
+                    echo"nope";
+
                 }
     
             } else {

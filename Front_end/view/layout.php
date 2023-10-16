@@ -28,7 +28,7 @@
                 </ul>
                 <div class="navbar-nav ms-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Compte</a>
+                      <a class="nav-link" href="index.php?page=">Compte</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Panier</a>
@@ -61,8 +61,11 @@
                 <h4>Liens Rapides</h4>
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-black">Accueil</a></li>
-                    <li><a href="#" class="text-black">Produits</a></li>
+                    <li><a href="#" class="text-black">Homme</a></li>
+                    <li><a href="#" class="text-black">Femme</a></li>
+                    <li><a href="#" class="text-black">Enfant</a></li>
                     <li><a href="#" class="text-black">Contact</a></li>
+
                 </ul>
             </div>
             <div class="col-md-4">
